@@ -1,0 +1,1 @@
+ffplay -hide_banner -loglevel warning -nostats -rtsp_transport udp -rtbufsize 0 -fflags nobuffer -flags low_delay -framedrop -probesize 32 -analyzeduration 0 -sync ext -i "rtsp://admin:Hikvisionwt@192.168.1.64:554/Streaming/Channels/101"
